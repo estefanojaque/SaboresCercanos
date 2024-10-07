@@ -140,57 +140,6 @@
         "Calienta las tortillas de maíz y rellénalas con el pollo, cebolla, pimiento y lechuga.",
         "Acompaña los tacos con salsa de guacamole al gusto."
       ]
-    },
-    {
-      "id": "6",
-      "name_of_dish": "Arroz con Pollo",
-      "posted_by": "Daniela Ramírez",
-      "ingredients": [
-        "500g de pollo (piernas y muslos)",
-        "2 tazas de arroz",
-        "1 cebolla",
-        "2 dientes de ajo",
-        "1 taza de arvejas",
-        "1 taza de zanahorias en cubos",
-        "1 pimiento rojo",
-        "2 cucharadas de pasta de ají amarillo",
-        "Culantro licuado",
-        "Caldo de pollo",
-        "Aceite",
-        "Sal y pimienta"
-      ],
-      "preparation_steps": [
-        "Sazona el pollo con sal y pimienta y dóralo en una sartén con aceite.",
-        "Retira el pollo y en la misma sartén sofríe la cebolla, el ajo y la pasta de ají amarillo.",
-        "Añade el arroz y mezcla bien para que se impregne de los sabores.",
-        "Incorpora el culantro licuado, las arvejas, las zanahorias y el pimiento en tiras.",
-        "Coloca el pollo nuevamente en la sartén y cubre todo con caldo de pollo.",
-        "Cocina a fuego bajo hasta que el arroz esté cocido y el líquido se haya absorbido."
-      ]
-    },
-    {
-      "id": "7",
-      "name_of_dish": "Tiradito de Pescado",
-      "posted_by": "Alejandro Paredes",
-      "ingredients": [
-        "400g de pescado blanco (corvina o lenguado)",
-        "8 limones",
-        "1 ají amarillo",
-        "1 ají limo",
-        "Culantro picado",
-        "Sal",
-        "Pimienta",
-        "Choclo hervido",
-        "Camote sancochado"
-      ],
-      "preparation_steps": [
-        "Corta el pescado en láminas finas y colócalo en un plato extendido.",
-        "Exprime los limones sobre el pescado, asegurándote de que quede bien cubierto.",
-        "Licúa el ají amarillo con un poco de agua hasta obtener una salsa suave.",
-        "Sazona el pescado con sal y pimienta, y añade el culantro picado y el ají limo en rodajas.",
-        "Vierte la salsa de ají amarillo sobre el pescado.",
-        "Sirve el tiradito acompañado de choclo hervido y camote sancochado."
-      ]
     }
   ],
   "dishes": [
@@ -252,24 +201,6 @@
       "paymentMethod": "Transferencia Bancaria",
       "totalAmount": 50,
       "status": "pendiente"
-    },
-    {
-      "id": 5,
-      "customerId": "4",
-      "orderDate": "2024-09-23",
-      "deliveryDate": "2024-09-24",
-      "paymentMethod": "Tarjeta de Débito",
-      "totalAmount": 19.99,
-      "status": "completado"
-    },
-    {
-      "id": 6,
-      "customerId": "5",
-      "orderDate": "2024-09-22",
-      "deliveryDate": "2024-09-23",
-      "paymentMethod": "Efectivo",
-      "totalAmount": "50",
-      "status": "cancelado"
     }
   ]
 }
