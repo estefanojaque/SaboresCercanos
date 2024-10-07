@@ -1,0 +1,275 @@
+{
+  "tutorials": [],
+  "chefs": [
+    {
+      "id": 2,
+      "name": "Lala Lopez",
+      "rating": 4.5
+    },
+    {
+      "id": 4,
+      "name": "Juan Torres",
+      "rating": 5
+    },
+    {
+      "id": 5,
+      "name": "Sebastián Real",
+      "rating": "2.8"
+    }
+  ],
+  "nutrients": [
+    {
+      "id": "1",
+      "name": "Ají de gallina",
+      "unit": "25% proteínas (44g), 13% carbohidratos (25.5g), y 64% grasas (53.2g)"
+    },
+    {
+      "id": "2",
+      "name": "Puré de papa",
+      "unit": "8% proteínas (2g), 82% carbohidratos (18g), y 10% grasas (2.2g)"
+    },
+    {
+      "id": "3",
+      "name": "Sopa de casa",
+      "unit": "10% proteínas (5g), 55% carbohidratos (27g), y 35% grasas (7g)"
+    },
+    {
+      "id": "4",
+      "name": "Sancochado de pollo",
+      "unit": "30% proteínas (25g), 40% carbohidratos (33g), y 30% grasas (12g)"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "1",
+      "name_of_dish": "Ají de Gallina",
+      "posted_by": "Lucía Fernández",
+      "ingredients":"1 pechuga de pollo,2 rebanadas de pan de molde,1 taza de leche evaporada,2 cucharadas de pasta de ají amarillo,1 cebolla,2 dientes de ajo,50g de nueces picadas,100g de queso parmesano rallado,Aceitunas negras,Papas sancochadas,Arroz blanco,Sal y pimienta,Aceite",
+      "preparation_steps": "Hierve la pechuga de pollo y desmenúzala,Remoja el pan en la leche evaporada y licúa hasta obtener una mezcla homogénea,En una sartén con aceite, sofríe la cebolla picada y los ajos hasta que estén dorados,Añade la pasta de ají amarillo y cocina por unos minutos.,Incorpora la mezcla de pan y leche, removiendo constantemente,Agrega el pollo desmenuzado, las nueces picadas y el queso parmesano rallado.,Cocina a fuego lento hasta que la salsa espese,Sirve el ají de gallina acompañado de papas sancochadas, arroz blanco y aceitunas negras."
+    },
+    {
+      "id": "2",
+      "name_of_dish": "Puré con milanesa",
+      "posted_by": "Maria Jose Pezo",
+      "ingredients": [
+        "2 papas amarillas",
+        "1 taza de leche evaporada",
+        "50g de mantequilla",
+        "2 filetes de carne",
+        "1 huevo",
+        "Pan rallado",
+        "Aceite para freír",
+        "Sal y pimienta"
+      ],
+      "preparation_steps": [
+        "Hierve las papas en agua con sal hasta que estén blandas, luego haz un puré añadiendo leche y mantequilla.",
+        "Sazona los filetes de carne con sal y pimienta.",
+        "Pasa los filetes por huevo batido y luego por pan rallado.",
+        "Fríe los filetes en abundante aceite caliente hasta que estén dorados y crujientes.",
+        "Sirve la milanesa acompañada del puré de papas."
+      ]
+    },
+    {
+      "id": "3",
+      "name_of_dish": "Lomo Saltado",
+      "posted_by": "Juan Carlos Torres",
+      "ingredients": [
+        "500g de lomo de res",
+        "1 cebolla roja",
+        "2 tomates",
+        "1 pimiento amarillo",
+        "3 cucharadas de salsa de soya",
+        "2 cucharadas de vinagre",
+        "Papas fritas",
+        "Arroz blanco",
+        "Sal y pimienta",
+        "Aceite para freír"
+      ],
+      "preparation_steps": [
+        "Corta el lomo en tiras y sazona con sal y pimienta.",
+        "En una sartén caliente con aceite, sella el lomo y retíralo.",
+        "En la misma sartén, sofríe la cebolla y el pimiento cortados en tiras.",
+        "Añade los tomates en gajos y la carne sellada.",
+        "Agrega salsa de soya y vinagre, mezcla bien y cocina por unos minutos.",
+        "Sirve el lomo saltado acompañado de papas fritas y arroz blanco."
+      ]
+    },
+    {
+      "id": "4",
+      "name_of_dish": "Ceviche de Pescado",
+      "posted_by": "Ana María Delgado",
+      "ingredients": [
+        "500g de pescado blanco (corvina o lenguado)",
+        "1 cebolla roja",
+        "8 limones",
+        "1 ají limo",
+        "Culantro picado",
+        "Sal",
+        "Pimienta",
+        "Choclo hervido",
+        "Camote sancochado"
+      ],
+      "preparation_steps": [
+        "Corta el pescado en cubos y colócalo en un bol.",
+        "Añade la cebolla cortada en juliana y el ají limo picado.",
+        "Exprime los limones sobre el pescado, sazona con sal y pimienta.",
+        "Mezcla bien y deja reposar por unos minutos para que el pescado se cocine en el jugo de limón.",
+        "Sirve el ceviche acompañado de choclo hervido y camote sancochado."
+      ]
+    },
+    {
+      "id": "5",
+      "name_of_dish": "Tacos de Pollo",
+      "posted_by": "Carlos Rivera",
+      "ingredients": [
+        "500g de pechuga de pollo",
+        "Tortillas de maíz",
+        "1 pimiento rojo",
+        "1 cebolla",
+        "1 cucharadita de comino",
+        "1 cucharadita de paprika",
+        "Lechuga picada",
+        "Salsa de guacamole",
+        "Sal y pimienta",
+        "Aceite para cocinar"
+      ],
+      "preparation_steps": [
+        "Corta el pollo en tiras y sazona con sal, pimienta, comino y paprika.",
+        "En una sartén con aceite caliente, cocina el pollo hasta que esté dorado.",
+        "Sofríe la cebolla y el pimiento cortados en tiras en la misma sartén.",
+        "Calienta las tortillas de maíz y rellénalas con el pollo, cebolla, pimiento y lechuga.",
+        "Acompaña los tacos con salsa de guacamole al gusto."
+      ]
+    },
+    {
+      "id": "6",
+      "name_of_dish": "Arroz con Pollo",
+      "posted_by": "Daniela Ramírez",
+      "ingredients": [
+        "500g de pollo (piernas y muslos)",
+        "2 tazas de arroz",
+        "1 cebolla",
+        "2 dientes de ajo",
+        "1 taza de arvejas",
+        "1 taza de zanahorias en cubos",
+        "1 pimiento rojo",
+        "2 cucharadas de pasta de ají amarillo",
+        "Culantro licuado",
+        "Caldo de pollo",
+        "Aceite",
+        "Sal y pimienta"
+      ],
+      "preparation_steps": [
+        "Sazona el pollo con sal y pimienta y dóralo en una sartén con aceite.",
+        "Retira el pollo y en la misma sartén sofríe la cebolla, el ajo y la pasta de ají amarillo.",
+        "Añade el arroz y mezcla bien para que se impregne de los sabores.",
+        "Incorpora el culantro licuado, las arvejas, las zanahorias y el pimiento en tiras.",
+        "Coloca el pollo nuevamente en la sartén y cubre todo con caldo de pollo.",
+        "Cocina a fuego bajo hasta que el arroz esté cocido y el líquido se haya absorbido."
+      ]
+    },
+    {
+      "id": "7",
+      "name_of_dish": "Tiradito de Pescado",
+      "posted_by": "Alejandro Paredes",
+      "ingredients": [
+        "400g de pescado blanco (corvina o lenguado)",
+        "8 limones",
+        "1 ají amarillo",
+        "1 ají limo",
+        "Culantro picado",
+        "Sal",
+        "Pimienta",
+        "Choclo hervido",
+        "Camote sancochado"
+      ],
+      "preparation_steps": [
+        "Corta el pescado en láminas finas y colócalo en un plato extendido.",
+        "Exprime los limones sobre el pescado, asegurándote de que quede bien cubierto.",
+        "Licúa el ají amarillo con un poco de agua hasta obtener una salsa suave.",
+        "Sazona el pescado con sal y pimienta, y añade el culantro picado y el ají limo en rodajas.",
+        "Vierte la salsa de ají amarillo sobre el pescado.",
+        "Sirve el tiradito acompañado de choclo hervido y camote sancochado."
+      ]
+    }
+  ],
+  "dishes": [
+    {
+      "id": 1,
+      "name_of_dish": "Tallarines rojos",
+      "description": "es un plato",
+      "average_price": 20.7,
+      "order_count": "201"
+    },
+    {
+      "id": 2,
+      "name_of_dish": "Pure con milanesa",
+      "description": "es un plato",
+      "average_price": 19.5,
+      "order_count": 180
+    },
+    {
+      "id": 3,
+      "name_of_dish": "Arroz con pollo",
+      "description": "Es un plato",
+      "average_price": "13.50",
+      "order_count": "100"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerId": "1",
+      "orderDate": "2024-09-27",
+      "deliveryDate": "2024-09-28",
+      "paymentMethod": "Tarjeta de Crédito",
+      "totalAmount": 45.5,
+      "status": "pendiente"
+    },
+    {
+      "id": 2,
+      "customerId": "2",
+      "orderDate": "2024-09-26",
+      "deliveryDate": "2024-09-27",
+      "paymentMethod": "Efectivo",
+      "totalAmount": 23.75,
+      "status": "completado"
+    },
+    {
+      "id": 3,
+      "customerId": "3",
+      "orderDate": "2024-09-25",
+      "deliveryDate": "2024-09-26",
+      "paymentMethod": "PayPal",
+      "totalAmount": 30,
+      "status": "en preparación"
+    },
+    {
+      "id": 4,
+      "customerId": "1",
+      "orderDate": "2024-09-24",
+      "deliveryDate": "2024-09-25",
+      "paymentMethod": "Transferencia Bancaria",
+      "totalAmount": 50,
+      "status": "pendiente"
+    },
+    {
+      "id": 5,
+      "customerId": "4",
+      "orderDate": "2024-09-23",
+      "deliveryDate": "2024-09-24",
+      "paymentMethod": "Tarjeta de Débito",
+      "totalAmount": 19.99,
+      "status": "completado"
+    },
+    {
+      "id": 6,
+      "customerId": "5",
+      "orderDate": "2024-09-22",
+      "deliveryDate": "2024-09-23",
+      "paymentMethod": "Efectivo",
+      "totalAmount": "50",
+      "status": "cancelado"
+    }
+  ]
+}
