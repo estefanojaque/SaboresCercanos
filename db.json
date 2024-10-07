@@ -1,22 +1,4 @@
 {
-  "tutorials": [],
-  "chefs": [
-    {
-      "id": 2,
-      "name": "Lala Lopez",
-      "rating": 4.5
-    },
-    {
-      "id": 4,
-      "name": "Juan Torres",
-      "rating": 5
-    },
-    {
-      "id": 5,
-      "name": "Sebastián Real",
-      "rating": "2.8"
-    }
-  ],
   "nutrients": [
     {
       "id": "1",
@@ -140,67 +122,6 @@
         "Calienta las tortillas de maíz y rellénalas con el pollo, cebolla, pimiento y lechuga.",
         "Acompaña los tacos con salsa de guacamole al gusto."
       ]
-    }
-  ],
-  "dishes": [
-    {
-      "id": 1,
-      "name_of_dish": "Tallarines rojos",
-      "description": "es un plato",
-      "average_price": 20.7,
-      "order_count": "201"
-    },
-    {
-      "id": 2,
-      "name_of_dish": "Pure con milanesa",
-      "description": "es un plato",
-      "average_price": 19.5,
-      "order_count": 180
-    },
-    {
-      "id": 3,
-      "name_of_dish": "Arroz con pollo",
-      "description": "Es un plato",
-      "average_price": "13.50",
-      "order_count": "100"
-    }
-  ],
-  "orders": [
-    {
-      "id": 1,
-      "customerId": "1",
-      "orderDate": "2024-09-27",
-      "deliveryDate": "2024-09-28",
-      "paymentMethod": "Tarjeta de Crédito",
-      "totalAmount": 45.5,
-      "status": "pendiente"
-    },
-    {
-      "id": 2,
-      "customerId": "2",
-      "orderDate": "2024-09-26",
-      "deliveryDate": "2024-09-27",
-      "paymentMethod": "Efectivo",
-      "totalAmount": 23.75,
-      "status": "completado"
-    },
-    {
-      "id": 3,
-      "customerId": "3",
-      "orderDate": "2024-09-25",
-      "deliveryDate": "2024-09-26",
-      "paymentMethod": "PayPal",
-      "totalAmount": 30,
-      "status": "en preparación"
-    },
-    {
-      "id": 4,
-      "customerId": "1",
-      "orderDate": "2024-09-24",
-      "deliveryDate": "2024-09-25",
-      "paymentMethod": "Transferencia Bancaria",
-      "totalAmount": 50,
-      "status": "pendiente"
     }
   ]
 }
