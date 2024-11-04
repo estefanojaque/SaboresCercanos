@@ -32,12 +32,6 @@
       "dishId": 3,
       "publishDate": "2024-11-30",
       "stock": 22
-    },
-    {
-      "id": 3,
-      "dishId": 2,
-      "publishDate": "2024-11-30",
-      "stock": 12
     }
   ],
   "payment-methods": [
@@ -115,36 +109,6 @@
           "imageUrl": "/src/assets/aji-gallina.jpg"
         }
       ]
-    },
-    {
-      "id": 3,
-      "customerId": "3",
-      "orderDate": "2024-09-25",
-      "deliveryDate": "2024-09-26",
-      "paymentMethod": "Monedero digital",
-      "totalAmount": 58.1,
-      "status": "pendiente",
-      "dishes": [
-        {
-          "name": "Tallarines Verdes",
-          "quantity": 1,
-          "price": 15.1,
-          "imageUrl": "/src/assets/tallarines-verdes.jpg"
-        },
-        {
-          "name": "Lomo Saltado",
-          "quantity": 1,
-          "price": 18,
-          "imageUrl": "/src/assets/lomo-saltado.jpg"
-        },
-        {
-          "name": "Aji de Gallina",
-          "quantity": 2,
-          "price": 12.5,
-          "imageUrl": "/src/assets/aji-gallina.jpg"
-        }
-      ],
-      "detailsShown": false
     }
   ],
   "chefs": [
@@ -168,13 +132,6 @@
       "rating": 2,
       "favorite": false,
       "imageUrl": "/src/assets/chef3.png"
-    },
-    {
-      "id": 4,
-      "name": "Juan Torres",
-      "rating": 5,
-      "favorite": false,
-      "imageUrl": "/src/assets/chef4.png"
     }
   ],
   "dishes": [
