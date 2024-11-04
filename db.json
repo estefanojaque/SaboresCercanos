@@ -1,55 +1,299 @@
 {
+  "userProfile": {
+    "id": 1,
+    "photo": "/src/assets/me.jpg",
+    "name": "Diego Rosado",
+    "email": "rosadoiporre@gmail.com",
+    "birthDate": "01/01/1990",
+    "address": "Calle 1 Urb. San Felipe 257",
+    "paymentMethod": "Yape",
+    "cardNumber": "4772 **** **** 8898",
+    "yapeNumber": "",
+    "cashPayment": false,
+    "preferences": [
+      "Pescados y Mariscos",
+      "Comida China",
+      "Comida Internacional",
+      "Comida Saludable",
+      "Hamburguesas y Sandwiches",
+      "Sushi",
+      "Pollos y Parrillas"
+    ]
+  },
+  "posts": [
+    {
+      "id": 1,
+      "dishId": 1,
+      "publishDate": "2024-11-31",
+      "stock": 20
+    },
+    {
+      "id": 2,
+      "dishId": 3,
+      "publishDate": "2024-11-30",
+      "stock": 22
+    },
+    {
+      "id": 3,
+      "dishId": 2,
+      "publishDate": "2024-11-30",
+      "stock": 12
+    },
+    {
+      "id": 4,
+      "dishId": 5,
+      "publishDate": "2024-11-30",
+      "stock": 15
+    },
+    {
+      "id": 5,
+      "dishId": 4,
+      "publishDate": "2024-11-31",
+      "stock": 45
+    }
+  ],
+  "payment-methods": [
+    {
+      "id": 1,
+      "name": "Efectivo",
+      "logo": "assets/payment-method-logos/efectivo-logo"
+    },
+    {
+      "id": 2,
+      "name": "Tarjeta",
+      "logo": "assets/payment-method-logos/tarjeta-logo"
+    },
+    {
+      "id": 3,
+      "name": "Yape",
+      "logo": "assets/payment-method-logos/yape-logo"
+    },
+    {
+      "id": 4,
+      "name": "Plin",
+      "logo": "assets/payment-method-logos/plin-logo"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerId": "1",
+      "orderDate": "2024-09-23",
+      "deliveryDate": "2024-09-28",
+      "paymentMethod": "Tarjeta de credito",
+      "totalAmount": 58.1,
+      "status": "en preparacion",
+      "dishes": [
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Ceviche",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/ceviche.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        }
+      ],
+      "detailsShown": false
+    },
+    {
+      "id": 2,
+      "customerId": "2",
+      "orderDate": "2024-09-24",
+      "deliveryDate": "2024-09-27",
+      "paymentMethod": "Efectivo",
+      "totalAmount": 23.75,
+      "status": "completado",
+      "dishes": [
+        {
+          "name": "Ceviche",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/ceviche.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customerId": "3",
+      "orderDate": "2024-09-25",
+      "deliveryDate": "2024-09-26",
+      "paymentMethod": "Monedero digital",
+      "totalAmount": 58.1,
+      "status": "pendiente",
+      "dishes": [
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        },
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        }
+      ],
+      "detailsShown": false
+    },
+    {
+      "id": 4,
+      "customerId": "2",
+      "orderDate": "2024-09-21",
+      "deliveryDate": "2024-09-26",
+      "paymentMethod": "Monedero digital",
+      "totalAmount": 30,
+      "status": "en preparacion",
+      "dishes": [
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customerId": "3",
+      "orderDate": "2024-09-22",
+      "deliveryDate": "2024-09-28",
+      "paymentMethod": "Tarjeta de credito",
+      "totalAmount": 70,
+      "status": "completado",
+      "dishes": [
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "customerId": "1",
+      "orderDate": "2024-09-19",
+      "deliveryDate": "2024-09-20",
+      "paymentMethod": "Efectivo",
+      "totalAmount": "40",
+      "status": "pendiente",
+      "dishes": [
+        {
+          "name": "Ceviche",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/ceviche.jpg"
+        },
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        }
+      ]
+    }
+  ],
   "chefs": [
+    {
+      "id": 1,
+      "name": "Juan Perez",
+      "rating": 3.3,
+      "favorite": true,
+      "imageUrl": "/src/assets/chef1.png"
+    },
     {
       "id": 2,
       "name": "Lala Lopez",
-      "rating": 4.5
+      "rating": 4.5,
+      "favorite": true,
+      "imageUrl": "/src/assets/chef2.png"
+    },
+    {
+      "id": 3,
+      "name": "Estefano Jaque",
+      "rating": 2,
+      "favorite": false,
+      "imageUrl": "/src/assets/chef3.png"
     },
     {
       "id": 4,
       "name": "Juan Torres",
-      "rating": 5
+      "rating": 5,
+      "favorite": false,
+      "imageUrl": "/src/assets/chef4.png"
     },
     {
       "id": 5,
       "name": "Sebastián Real",
-      "rating": "2.8"
+      "rating": "1.5",
+      "favorite": false,
+      "imageUrl": "/src/assets/chef1.png"
     }
   ],
-  "nutrients": [
+  "dishes": [
     {
-      "id": "1",
-      "name": "Ají de gallina",
-      "unit": "25% proteínas (44g), 13% carbohidratos (25.5g), y 64% grasas (53.2g)"
-    },
-    {
-      "id": "2",
-      "name": "Puré de papa",
-      "unit": "8% proteínas (2g), 82% carbohidratos (18g), y 10% grasas (2.2g)"
-    },
-    {
-      "id": "3",
-      "name": "Sopa de casa",
-      "unit": "10% proteínas (5g), 55% carbohidratos (27g), y 35% grasas (7g)"
-    },
-    {
-      "id": "4",
-      "name": "Sancochado de pollo",
-      "unit": "30% proteínas (25g), 40% carbohidratos (33g), y 30% grasas (12g)"
-    }
-  ],
-  "recipes": [
-    {
-      "id": "1",
-      "name_of_dish": "Ají de Gallina",
-      "posted_by": "Lucía Fernández",
-      "ingredients":"1 pechuga de pollo,2 rebanadas de pan de molde,1 taza de leche evaporada,2 cucharadas de pasta de ají amarillo,1 cebolla,2 dientes de ajo,50g de nueces picadas,100g de queso parmesano rallado,Aceitunas negras,Papas sancochadas,Arroz blanco,Sal y pimienta,Aceite",
-      "preparation_steps": "Hierve la pechuga de pollo y desmenúzala,Remoja el pan en la leche evaporada y licúa hasta obtener una mezcla homogénea,En una sartén con aceite, sofríe la cebolla picada y los ajos hasta que estén dorados,Añade la pasta de ají amarillo y cocina por unos minutos.,Incorpora la mezcla de pan y leche, removiendo constantemente,Agrega el pollo desmenuzado, las nueces picadas y el queso parmesano rallado.,Cocina a fuego lento hasta que la salsa espese,Sirve el ají de gallina acompañado de papas sancochadas, arroz blanco y aceitunas negras."
-    },
-    {
-      "id": "2",
-      "name_of_dish": "Puré con milanesa",
-      "posted_by": "Maria Jose Pezo",
+      "id": 1,
+      "chefId": 1,
+      "nameOfDish": "Puré con milanesa",
       "ingredients": [
         "2 papas amarillas",
         "1 taza de leche evaporada",
@@ -60,155 +304,102 @@
         "Aceite para freír",
         "Sal y pimienta"
       ],
-      "preparation_steps": [
+      "preparationSteps": [
         "Hierve las papas en agua con sal hasta que estén blandas, luego haz un puré añadiendo leche y mantequilla.",
         "Sazona los filetes de carne con sal y pimienta.",
         "Pasa los filetes por huevo batido y luego por pan rallado.",
         "Fríe los filetes en abundante aceite caliente hasta que estén dorados y crujientes.",
         "Sirve la milanesa acompañada del puré de papas."
-      ]
-    },
-    {
-      "id": "3",
-      "name_of_dish": "Lomo Saltado",
-      "posted_by": "Juan Carlos Torres",
-      "ingredients": [
-        "500g de lomo de res",
-        "1 cebolla roja",
-        "2 tomates",
-        "1 pimiento amarillo",
-        "3 cucharadas de salsa de soya",
-        "2 cucharadas de vinagre",
-        "Papas fritas",
-        "Arroz blanco",
-        "Sal y pimienta",
-        "Aceite para freír"
       ],
-      "preparation_steps": [
-        "Corta el lomo en tiras y sazona con sal y pimienta.",
-        "En una sartén caliente con aceite, sella el lomo y retíralo.",
-        "En la misma sartén, sofríe la cebolla y el pimiento cortados en tiras.",
-        "Añade los tomates en gajos y la carne sellada.",
-        "Agrega salsa de soya y vinagre, mezcla bien y cocina por unos minutos.",
-        "Sirve el lomo saltado acompañado de papas fritas y arroz blanco."
-      ]
+      "favorite": false
     },
     {
-      "id": "4",
-      "name_of_dish": "Ceviche de Pescado",
-      "posted_by": "Ana María Delgado",
+      "id": 2,
+      "chefId": 2,
+      "nameOfDish": "Tacos al pastor",
       "ingredients": [
-        "500g de pescado blanco (corvina o lenguado)",
-        "1 cebolla roja",
-        "8 limones",
-        "1 ají limo",
-        "Culantro picado",
-        "Sal",
-        "Pimienta",
-        "Choclo hervido",
-        "Camote sancochado"
-      ],
-      "preparation_steps": [
-        "Corta el pescado en cubos y colócalo en un bol.",
-        "Añade la cebolla cortada en juliana y el ají limo picado.",
-        "Exprime los limones sobre el pescado, sazona con sal y pimienta.",
-        "Mezcla bien y deja reposar por unos minutos para que el pescado se cocine en el jugo de limón.",
-        "Sirve el ceviche acompañado de choclo hervido y camote sancochado."
-      ]
-    },
-    {
-      "id": "5",
-      "name_of_dish": "Tacos de Pollo",
-      "posted_by": "Carlos Rivera",
-      "ingredients": [
-        "500g de pechuga de pollo",
-        "Tortillas de maíz",
-        "1 pimiento rojo",
+        "500g de carne de cerdo",
+        "1/2 piña",
         "1 cebolla",
-        "1 cucharadita de comino",
-        "1 cucharadita de paprika",
-        "Lechuga picada",
-        "Salsa de guacamole",
-        "Sal y pimienta",
-        "Aceite para cocinar"
+        "Cilantro al gusto",
+        "Tortillas de maíz",
+        "Salsa al gusto",
+        "Sal y pimienta"
       ],
-      "preparation_steps": [
-        "Corta el pollo en tiras y sazona con sal, pimienta, comino y paprika.",
-        "En una sartén con aceite caliente, cocina el pollo hasta que esté dorado.",
-        "Sofríe la cebolla y el pimiento cortados en tiras en la misma sartén.",
-        "Calienta las tortillas de maíz y rellénalas con el pollo, cebolla, pimiento y lechuga.",
-        "Acompaña los tacos con salsa de guacamole al gusto."
-      ]
-    }
-  ],
-  "dishes": [
-    {
-      "id": 1,
-      "name_of_dish": "Tallarines rojos",
-      "description": "es un plato",
-      "average_price": 20.7,
-      "order_count": "201"
-    },
-    {
-      "id": 2,
-      "name_of_dish": "Pure con milanesa",
-      "description": "es un plato",
-      "average_price": 19.5,
-      "order_count": 180
+      "preparationSteps": [
+        "Marina la carne de cerdo con sal, pimienta y especias al gusto.",
+        "Cocina la carne en una parrilla hasta que esté dorada.",
+        "Corta la piña y la cebolla en trozos.",
+        "Arma los tacos con tortillas, carne, piña, cebolla y cilantro.",
+        "Agrega salsa al gusto y sirve."
+      ],
+      "favorite": true
     },
     {
       "id": 3,
-      "name_of_dish": "Arroz con pollo",
-      "description": "Es un plato",
-      "average_price": "13.50",
-      "order_count": "100"
-    }
-  ],
-  "orders": [
-    {
-      "id": 1,
-      "customerId": "1",
-      "orderDate": "2024-09-27",
-      "deliveryDate": "2024-09-28",
-      "paymentMethod": "Tarjeta de Crédito",
-      "totalAmount": 45.5,
-      "status": "pendiente"
-    },
-    {
-      "id": 2,
-      "customerId": "2",
-      "orderDate": "2024-09-26",
-      "deliveryDate": "2024-09-27",
-      "paymentMethod": "Efectivo",
-      "totalAmount": 23.75,
-      "status": "completado"
-    },
-    {
-      "id": 3,
-      "customerId": "3",
-      "orderDate": "2024-09-25",
-      "deliveryDate": "2024-09-26",
-      "paymentMethod": "PayPal",
-      "totalAmount": 30,
-      "status": "en preparación"
+      "chefId": 2,
+      "nameOfDish": "Spaghetti a la boloñesa",
+      "ingredients": [
+        "200g de spaghetti",
+        "150g de carne molida",
+        "1 lata de tomate triturado",
+        "1 cebolla",
+        "1 diente de ajo",
+        "Aceite de oliva",
+        "Sal y pimienta",
+        "Queso parmesano al gusto"
+      ],
+      "preparationSteps": [
+        "Cocina los spaghetti según las instrucciones del paquete.",
+        "En una sartén, calienta el aceite y sofríe la cebolla y el ajo picados.",
+        "Agrega la carne molida y cocina hasta que esté dorada.",
+        "Incorpora el tomate triturado, sal y pimienta, y deja cocinar a fuego lento.",
+        "Sirve los spaghetti con la salsa y espolvorea con queso parmesano."
+      ],
+      "favorite": true
     },
     {
       "id": 4,
-      "customerId": "1",
-      "orderDate": "2024-09-24",
-      "deliveryDate": "2024-09-25",
-      "paymentMethod": "Transferencia Bancaria",
-      "totalAmount": 50,
-      "status": "pendiente"
+      "chefId": 1,
+      "nameOfDish": "Pancakes de avena",
+      "ingredients": [
+        "1 taza de avena",
+        "1 plátano",
+        "1 huevo",
+        "1/2 taza de leche",
+        "1 cucharadita de polvo de hornear",
+        "Miel al gusto"
+      ],
+      "preparationSteps": [
+        "Licúa la avena, plátano, huevo y leche hasta obtener una mezcla homogénea.",
+        "Agrega el polvo de hornear y mezcla bien.",
+        "Calienta una sartén y vierte un poco de la mezcla formando pancakes.",
+        "Cocina por ambos lados hasta dorar.",
+        "Sirve con miel y frutas al gusto."
+      ],
+      "favorite": true
     },
     {
       "id": 5,
-      "customerId": "4",
-      "orderDate": "2024-09-23",
-      "deliveryDate": "2024-09-24",
-      "paymentMethod": "Tarjeta de Débito",
-      "totalAmount": 19.99,
-      "status": "completado"
+      "chefId": 3,
+      "nameOfDish": "Sopa de lentejas",
+      "ingredients": [
+        "1 taza de lentejas",
+        "1 zanahoria",
+        "1 cebolla",
+        "2 dientes de ajo",
+        "1 hoja de laurel",
+        "Agua o caldo de verduras",
+        "Sal y pimienta"
+      ],
+      "preparationSteps": [
+        "Lava las lentejas y ponlas a hervir en agua con la hoja de laurel.",
+        "En una sartén, sofríe la cebolla, ajo y zanahoria picados.",
+        "Agrega las verduras a las lentejas y cocina hasta que estén tiernas.",
+        "Sazona con sal y pimienta al gusto.",
+        "Sirve caliente."
+      ],
+      "favorite": false
     }
   ]
 }
