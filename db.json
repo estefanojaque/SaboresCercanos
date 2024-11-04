@@ -45,29 +45,7 @@
       "publishDate": "2024-11-30",
       "stock": 15
     }
-  ],
-  "payment-methods": [
-    {
-      "id": 1,
-      "name": "Efectivo",
-      "logo": "assets/payment-method-logos/efectivo-logo"
-    },
-    {
-      "id": 2,
-      "name": "Tarjeta",
-      "logo": "assets/payment-method-logos/tarjeta-logo"
-    },
-    {
-      "id": 3,
-      "name": "Yape",
-      "logo": "assets/payment-method-logos/yape-logo"
-    },
-    {
-      "id": 4,
-      "name": "Plin",
-      "logo": "assets/payment-method-logos/plin-logo"
-    }
-  ],
+  ]
   "orders": [
     {
       "id": 1,
