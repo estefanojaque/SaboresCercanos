@@ -32,6 +32,24 @@
       "dishId": 3,
       "publishDate": "2024-11-30",
       "stock": 22
+    },
+    {
+      "id": 3,
+      "dishId": 2,
+      "publishDate": "2024-11-30",
+      "stock": 12
+    },
+    {
+      "id": 4,
+      "dishId": 5,
+      "publishDate": "2024-11-30",
+      "stock": 15
+    },
+    {
+      "id": 5,
+      "dishId": 4,
+      "publishDate": "2024-11-31",
+      "stock": 45
     }
   ],
   "orders": [
@@ -55,6 +73,12 @@
           "quantity": 1,
           "price": 18,
           "imageUrl": "/src/assets/ceviche.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
         }
       ],
       "detailsShown": false
@@ -87,6 +111,123 @@
           "imageUrl": "/src/assets/aji-gallina.jpg"
         }
       ]
+    },
+    {
+      "id": 3,
+      "customerId": "3",
+      "orderDate": "2024-09-25",
+      "deliveryDate": "2024-09-26",
+      "paymentMethod": "Monedero digital",
+      "totalAmount": 58.1,
+      "status": "pendiente",
+      "dishes": [
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        },
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        }
+      ],
+      "detailsShown": false
+    },
+    {
+      "id": 4,
+      "customerId": "2",
+      "orderDate": "2024-09-21",
+      "deliveryDate": "2024-09-26",
+      "paymentMethod": "Monedero digital",
+      "totalAmount": 30,
+      "status": "en preparacion",
+      "dishes": [
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customerId": "3",
+      "orderDate": "2024-09-22",
+      "deliveryDate": "2024-09-28",
+      "paymentMethod": "Tarjeta de credito",
+      "totalAmount": 70,
+      "status": "completado",
+      "dishes": [
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "customerId": "1",
+      "orderDate": "2024-09-19",
+      "deliveryDate": "2024-09-20",
+      "paymentMethod": "Efectivo",
+      "totalAmount": "40",
+      "status": "pendiente",
+      "dishes": [
+        {
+          "name": "Ceviche",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/ceviche.jpg"
+        },
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        }
+      ]
     }
   ],
   "chefs": [
@@ -110,6 +251,20 @@
       "rating": 2,
       "favorite": false,
       "imageUrl": "/src/assets/chef3.png"
+    },
+    {
+      "id": 4,
+      "name": "Juan Torres",
+      "rating": 5,
+      "favorite": false,
+      "imageUrl": "/src/assets/chef4.png"
+    },
+    {
+      "id": 5,
+      "name": "Sebastián Real",
+      "rating": "1.5",
+      "favorite": false,
+      "imageUrl": "/src/assets/chef1.png"
     }
   ],
   "dishes": [
@@ -180,6 +335,49 @@
         "Sirve los spaghetti con la salsa y espolvorea con queso parmesano."
       ],
       "favorite": true
+    },
+    {
+      "id": 4,
+      "chefId": 1,
+      "nameOfDish": "Pancakes de avena",
+      "ingredients": [
+        "1 taza de avena",
+        "1 plátano",
+        "1 huevo",
+        "1/2 taza de leche",
+        "1 cucharadita de polvo de hornear",
+        "Miel al gusto"
+      ],
+      "preparationSteps": [
+        "Licúa la avena, plátano, huevo y leche hasta obtener una mezcla homogénea.",
+        "Agrega el polvo de hornear y mezcla bien.",
+        "Calienta una sartén y vierte un poco de la mezcla formando pancakes.",
+        "Cocina por ambos lados hasta dorar.",
+        "Sirve con miel y frutas al gusto."
+      ],
+      "favorite": true
+    },
+    {
+      "id": 5,
+      "chefId": 3,
+      "nameOfDish": "Sopa de lentejas",
+      "ingredients": [
+        "1 taza de lentejas",
+        "1 zanahoria",
+        "1 cebolla",
+        "2 dientes de ajo",
+        "1 hoja de laurel",
+        "Agua o caldo de verduras",
+        "Sal y pimienta"
+      ],
+      "preparationSteps": [
+        "Lava las lentejas y ponlas a hervir en agua con la hoja de laurel.",
+        "En una sartén, sofríe la cebolla, ajo y zanahoria picados.",
+        "Agrega las verduras a las lentejas y cocina hasta que estén tiernas.",
+        "Sazona con sal y pimienta al gusto.",
+        "Sirve caliente."
+      ],
+      "favorite": false
     }
   ]
 }
