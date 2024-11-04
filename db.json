@@ -280,13 +280,6 @@
       "rating": 5,
       "favorite": false,
       "imageUrl": "/src/assets/chef4.png"
-    },
-    {
-      "id": 5,
-      "name": "Sebastián Real",
-      "rating": "1.5",
-      "favorite": false,
-      "imageUrl": "/src/assets/chef1.png"
     }
   ],
   "dishes": [
@@ -357,49 +350,6 @@
         "Sirve los spaghetti con la salsa y espolvorea con queso parmesano."
       ],
       "favorite": true
-    },
-    {
-      "id": 4,
-      "chefId": 1,
-      "nameOfDish": "Pancakes de avena",
-      "ingredients": [
-        "1 taza de avena",
-        "1 plátano",
-        "1 huevo",
-        "1/2 taza de leche",
-        "1 cucharadita de polvo de hornear",
-        "Miel al gusto"
-      ],
-      "preparationSteps": [
-        "Licúa la avena, plátano, huevo y leche hasta obtener una mezcla homogénea.",
-        "Agrega el polvo de hornear y mezcla bien.",
-        "Calienta una sartén y vierte un poco de la mezcla formando pancakes.",
-        "Cocina por ambos lados hasta dorar.",
-        "Sirve con miel y frutas al gusto."
-      ],
-      "favorite": true
-    },
-    {
-      "id": 5,
-      "chefId": 3,
-      "nameOfDish": "Sopa de lentejas",
-      "ingredients": [
-        "1 taza de lentejas",
-        "1 zanahoria",
-        "1 cebolla",
-        "2 dientes de ajo",
-        "1 hoja de laurel",
-        "Agua o caldo de verduras",
-        "Sal y pimienta"
-      ],
-      "preparationSteps": [
-        "Lava las lentejas y ponlas a hervir en agua con la hoja de laurel.",
-        "En una sartén, sofríe la cebolla, ajo y zanahoria picados.",
-        "Agrega las verduras a las lentejas y cocina hasta que estén tiernas.",
-        "Sazona con sal y pimienta al gusto.",
-        "Sirve caliente."
-      ],
-      "favorite": false
     }
   ]
 }
