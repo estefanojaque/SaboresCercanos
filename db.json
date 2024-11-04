@@ -2,11 +2,11 @@
   "userProfile": {
     "id": 1,
     "photo": "/src/assets/me.jpg",
-    "name": "Diego Rosado Iporre",
+    "name": "Diego Rosado",
     "email": "rosadoiporre@gmail.com",
-    "birthDate": "2000-02-20T05:00:00.000Z",
+    "birthDate": "01/01/1990",
     "address": "Calle 1 Urb. San Felipe 257",
-    "paymentMethod": "Efectivo",
+    "paymentMethod": "Yape",
     "cardNumber": "4772 **** **** 8898",
     "yapeNumber": "",
     "cashPayment": false,
@@ -16,9 +16,254 @@
       "Comida Internacional",
       "Comida Saludable",
       "Hamburguesas y Sandwiches",
-      "Desayunos"
+      "Sushi",
+      "Pollos y Parrillas"
     ]
   },
+  "posts": [
+    {
+      "id": 1,
+      "dishId": 1,
+      "publishDate": "2024-11-31",
+      "stock": 20
+    },
+    {
+      "id": 2,
+      "dishId": 3,
+      "publishDate": "2024-11-30",
+      "stock": 22
+    },
+    {
+      "id": 3,
+      "dishId": 2,
+      "publishDate": "2024-11-30",
+      "stock": 12
+    },
+    {
+      "id": 4,
+      "dishId": 5,
+      "publishDate": "2024-11-30",
+      "stock": 15
+    },
+    {
+      "id": 5,
+      "dishId": 4,
+      "publishDate": "2024-11-31",
+      "stock": 45
+    },
+    {
+      "id": 6,
+      "dishId": 1,
+      "stock": 2,
+      "publishDate": "2024-11-05"
+    },
+    {
+      "id": 7,
+      "dishId": 5,
+      "stock": 2,
+      "publishDate": "2024-11-04"
+    }
+  ],
+  "payment-methods": [
+    {
+      "id": 1,
+      "name": "Efectivo",
+      "logo": "assets/payment-method-logos/efectivo-logo"
+    },
+    {
+      "id": 2,
+      "name": "Tarjeta",
+      "logo": "assets/payment-method-logos/tarjeta-logo"
+    },
+    {
+      "id": 3,
+      "name": "Yape",
+      "logo": "assets/payment-method-logos/yape-logo"
+    },
+    {
+      "id": 4,
+      "name": "Plin",
+      "logo": "assets/payment-method-logos/plin-logo"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerId": "1",
+      "orderDate": "2024-09-23",
+      "deliveryDate": "2024-09-28",
+      "paymentMethod": "Tarjeta de credito",
+      "totalAmount": 58.1,
+      "status": "en preparacion",
+      "dishes": [
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Ceviche",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/ceviche.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        }
+      ],
+      "detailsShown": false
+    },
+    {
+      "id": 2,
+      "customerId": "2",
+      "orderDate": "2024-09-24",
+      "deliveryDate": "2024-09-27",
+      "paymentMethod": "Efectivo",
+      "totalAmount": 23.75,
+      "status": "completado",
+      "dishes": [
+        {
+          "name": "Ceviche",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/ceviche.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "customerId": "3",
+      "orderDate": "2024-09-25",
+      "deliveryDate": "2024-09-26",
+      "paymentMethod": "Monedero digital",
+      "totalAmount": 58.1,
+      "status": "pendiente",
+      "dishes": [
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        },
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        }
+      ],
+      "detailsShown": false
+    },
+    {
+      "id": 4,
+      "customerId": "2",
+      "orderDate": "2024-09-21",
+      "deliveryDate": "2024-09-26",
+      "paymentMethod": "Monedero digital",
+      "totalAmount": 30,
+      "status": "en preparacion",
+      "dishes": [
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "customerId": "3",
+      "orderDate": "2024-09-22",
+      "deliveryDate": "2024-09-28",
+      "paymentMethod": "Tarjeta de credito",
+      "totalAmount": 70,
+      "status": "completado",
+      "dishes": [
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Aji de Gallina",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/aji-gallina.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "customerId": "1",
+      "orderDate": "2024-09-19",
+      "deliveryDate": "2024-09-20",
+      "paymentMethod": "Efectivo",
+      "totalAmount": "40",
+      "status": "pendiente",
+      "dishes": [
+        {
+          "name": "Ceviche",
+          "quantity": 2,
+          "price": 12.5,
+          "imageUrl": "/src/assets/ceviche.jpg"
+        },
+        {
+          "name": "Lomo Saltado",
+          "quantity": 1,
+          "price": 18,
+          "imageUrl": "/src/assets/lomo-saltado.jpg"
+        },
+        {
+          "name": "Tallarines Verdes",
+          "quantity": 1,
+          "price": 15.1,
+          "imageUrl": "/src/assets/tallarines-verdes.jpg"
+        }
+      ]
+    }
+  ],
   "chefs": [
     {
       "id": 1,
@@ -31,7 +276,7 @@
       "id": 2,
       "name": "Lala Lopez",
       "rating": 4.5,
-      "favorite": false,
+      "favorite": true,
       "imageUrl": "/src/assets/chef2.png"
     },
     {
@@ -56,153 +301,11 @@
       "imageUrl": "/src/assets/chef1.png"
     }
   ],
-  "posts": [
+  "dishes": [
     {
       "id": 1,
-      "chefId": 3,
-      "dishName": "Tallarines Rojos",
-      "image": "/src/assets/dishes/tallarines-rojos.jpg",
-      "stock": 20,
-      "ingredients": [
-        "Tallarines",
-        "Tomate",
-        "Cebolla",
-        "Ajo",
-        "Pimiento",
-        "Carne de res",
-        "Queso parmesano"
-      ],
-      "paymentMethods": [
-        1,
-        3,
-        4
-      ],
-      "publishDate": "2024-11-04"
-    },
-    {
-      "id": 2,
-      "chefId": 2,
-      "dishName": "Arroz con pollo",
-      "image": "/src/assets/dishes/arroz-con-pollo.jpg",
-      "stock": 17,
-      "ingredients": [
-        "Arroz",
-        "Choclo",
-        "Pollo",
-        "Culantro",
-        "Zanahoria",
-        "Arvejas",
-        "Cebolla",
-        "Ajo",
-        "Pimiento"
-      ],
-      "paymentMethods": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "publishDate": "2024-11-04"
-    },
-    {
-      "id": 3,
-      "chefId": 2,
-      "dishName": "Papa a la Huancaina",
-      "image": "/src/assets/dishes/papa-a-la-huancaina.jpg",
-      "stock": 28,
-      "ingredients": [
-        "Papa",
-        "Ají amarillo",
-        "Queso fresco",
-        "Leche evaporada",
-        "Galletas saladas",
-        "Aceitunas",
-        "Huevo duro"
-      ],
-      "paymentMethods": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "publishDate": "2024-11-05"
-    },
-    {
-      "id": 4,
       "chefId": 1,
-      "dishName": "Ceviche de Pescado",
-      "image": "/src/assets/dishes/ceviche-de-pescado.jpeg",
-      "stock": 16,
-      "ingredients": [
-        "Pescado",
-        "Cebolla",
-        "Limón",
-        "Ají limo",
-        "Culantro",
-        "Sal",
-        "Maíz cancha",
-        "Camote"
-      ],
-      "paymentMethods": [
-        1,
-        3,
-        4
-      ],
-      "publishDate": "2024-11-05"
-    }
-  ],
-  "orders": [
-    {
-      "id": 1,
-      "customerId": "1",
-      "orderDate": "2024-09-23",
-      "deliveryDate": "2024-09-28",
-      "paymentMethod": "Tarjeta de credito",
-      "totalAmount": 45.5,
-      "status": "completado"
-    },
-    {
-      "id": 2,
-      "customerId": "2",
-      "orderDate": "2024-09-24",
-      "deliveryDate": "2024-09-27",
-      "paymentMethod": "Efectivo",
-      "totalAmount": 23.75,
-      "status": "completado"
-    },
-    {
-      "id": 3,
-      "customerId": "3",
-      "orderDate": "2024-09-25",
-      "deliveryDate": "2024-09-26",
-      "paymentMethod": "Monedero digital",
-      "totalAmount": 30,
-      "status": "en preparacion"
-    },
-    {
-      "id": 4,
-      "customerId": "1",
-      "orderDate": "2024-10-30",
-      "deliveryDate": "2024-10-30T05:14:42.206Z",
-      "paymentMethod": "Yape",
-      "totalAmount": 20,
-      "status": "pendiente"
-    },
-    {
-      "id": 5,
-      "customerId": 1,
-      "orderDate": "2024-10-30",
-      "deliveryDate": "2024-10-30T06:12:51.569Z",
-      "paymentMethod": "Yape",
-      "totalAmount": 10,
-      "status": "Pendiente"
-    }
-  ],
-  "recipes": [
-    {
-      "id": "2",
-      "name_of_dish": "Puré con milanesa",
-      "posted_by": "Maria Jose Pezo",
+      "nameOfDish": "Puré con milanesa",
       "ingredients": [
         "2 papas amarillas",
         "1 taza de leche evaporada",
@@ -213,19 +316,19 @@
         "Aceite para freír",
         "Sal y pimienta"
       ],
-      "preparation_steps": [
+      "preparationSteps": [
         "Hierve las papas en agua con sal hasta que estén blandas, luego haz un puré añadiendo leche y mantequilla.",
         "Sazona los filetes de carne con sal y pimienta.",
         "Pasa los filetes por huevo batido y luego por pan rallado.",
         "Fríe los filetes en abundante aceite caliente hasta que estén dorados y crujientes.",
         "Sirve la milanesa acompañada del puré de papas."
       ],
-      "favorite": true
+      "favorite": false
     },
     {
-      "id": "4",
-      "name_of_dish": "Tacos al pastor",
-      "posted_by": "Laura Gómez",
+      "id": 2,
+      "chefId": 2,
+      "nameOfDish": "Tacos al pastor",
       "ingredients": [
         "500g de carne de cerdo",
         "1/2 piña",
@@ -235,19 +338,19 @@
         "Salsa al gusto",
         "Sal y pimienta"
       ],
-      "preparation_steps": [
+      "preparationSteps": [
         "Marina la carne de cerdo con sal, pimienta y especias al gusto.",
         "Cocina la carne en una parrilla hasta que esté dorada.",
         "Corta la piña y la cebolla en trozos.",
         "Arma los tacos con tortillas, carne, piña, cebolla y cilantro.",
         "Agrega salsa al gusto y sirve."
       ],
-      "favorite": false
+      "favorite": true
     },
     {
-      "id": "5",
-      "name_of_dish": "Spaghetti a la boloñesa",
-      "posted_by": "Carlos Martínez",
+      "id": 3,
+      "chefId": 2,
+      "nameOfDish": "Spaghetti a la boloñesa",
       "ingredients": [
         "200g de spaghetti",
         "150g de carne molida",
@@ -258,7 +361,7 @@
         "Sal y pimienta",
         "Queso parmesano al gusto"
       ],
-      "preparation_steps": [
+      "preparationSteps": [
         "Cocina los spaghetti según las instrucciones del paquete.",
         "En una sartén, calienta el aceite y sofríe la cebolla y el ajo picados.",
         "Agrega la carne molida y cocina hasta que esté dorada.",
@@ -268,9 +371,9 @@
       "favorite": true
     },
     {
-      "id": "6",
-      "name_of_dish": "Pancakes de avena",
-      "posted_by": "Ana Torres",
+      "id": 4,
+      "chefId": 1,
+      "nameOfDish": "Pancakes de avena",
       "ingredients": [
         "1 taza de avena",
         "1 plátano",
@@ -279,7 +382,7 @@
         "1 cucharadita de polvo de hornear",
         "Miel al gusto"
       ],
-      "preparation_steps": [
+      "preparationSteps": [
         "Licúa la avena, plátano, huevo y leche hasta obtener una mezcla homogénea.",
         "Agrega el polvo de hornear y mezcla bien.",
         "Calienta una sartén y vierte un poco de la mezcla formando pancakes.",
@@ -289,9 +392,9 @@
       "favorite": true
     },
     {
-      "id": "7",
-      "name_of_dish": "Sopa de lentejas",
-      "posted_by": "Fernando Ruiz",
+      "id": 5,
+      "chefId": 3,
+      "nameOfDish": "Sopa de lentejas",
       "ingredients": [
         "1 taza de lentejas",
         "1 zanahoria",
@@ -301,14 +404,14 @@
         "Agua o caldo de verduras",
         "Sal y pimienta"
       ],
-      "preparation_steps": [
+      "preparationSteps": [
         "Lava las lentejas y ponlas a hervir en agua con la hoja de laurel.",
         "En una sartén, sofríe la cebolla, ajo y zanahoria picados.",
         "Agrega las verduras a las lentejas y cocina hasta que estén tiernas.",
         "Sazona con sal y pimienta al gusto.",
         "Sirve caliente."
       ],
-      "favorite": true
+      "favorite": false
     }
   ]
 }
