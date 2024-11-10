@@ -30,7 +30,7 @@
     },
     {
       "id": 2,
-      "dishId": 3,
+      "dishId": 2,
       "stock": 13,
       "publishDate": "2024-11-13",
       "pricePerUnit": 13
