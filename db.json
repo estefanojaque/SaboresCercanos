@@ -42,29 +42,10 @@
       "customerId": "1",
       "orderDate": "2024-09-23",
       "deliveryDate": "2024-09-28",
-      "paymentMethod": "Tarjeta de credito",
-      "totalAmount": 58.1,
+      "deliveryTime": "20:30",
+      "paymentMethod": "Yape",
       "status": "en preparacion",
-      "dishes": [
-        {
-          "name": "Lomo Saltado",
-          "quantity": 1,
-          "price": 15.1,
-          "imageUrl": "/src/assets/lomo-saltado.jpg"
-        },
-        {
-          "name": "Ceviche",
-          "quantity": 1,
-          "price": 18,
-          "imageUrl": "/src/assets/ceviche.jpg"
-        },
-        {
-          "name": "Aji de Gallina",
-          "quantity": 2,
-          "price": 12.5,
-          "imageUrl": "/src/assets/aji-gallina.jpg"
-        }
-      ],
+      "dishes": 1,
       "detailsShown": false
     }
   ],
