@@ -1,7 +1,7 @@
 {
   "userProfile": {
     "id": 1,
-    "photo": "/src/assets/me.jpg",
+    "photo": "https://github.com/Rampart-SaboresCercanos/FrontEnd/blob/develop/src/assets/me.jpg?raw=true",
     "name": "Diego Rosado",
     "email": "rosadoiporre@gmail.com",
     "birthDate": "01/01/1990",
@@ -30,49 +30,102 @@
     },
     {
       "id": 2,
-      "dishId": 2,
+      "dishId": 3,
       "stock": 13,
       "publishDate": "2024-11-13",
       "pricePerUnit": 13
     }
   ],
   "orders": [
-    {
-      "id": 1,
-      "customerId": "1",
-      "orderDate": "2024-09-23",
-      "deliveryDate": "2024-09-28",
-      "deliveryTime": "20:30",
-      "paymentMethod": "Yape",
-      "status": "en preparacion",
-      "dishes": 1,
-      "detailsShown": false
-    }
+      {
+        "id": 1,
+        "customerId": "1",
+        "orderDate": "2024-09-23",
+        "deliveryDate": "2024-09-28",
+        "deliveryTime": "20:30",
+        "paymentMethod": "Yape",
+        "status": "en preparacion",
+        "dishes": 1,
+        "detailsShown": false
+      },
+      {
+        "id": 2,
+        "customerId": "2",
+        "orderDate": "2024-09-24",
+        "deliveryDate": "2024-09-27",
+        "deliveryTime": "14:30",
+        "paymentMethod": "Yape",
+        "status": "completado",
+        "dishes": 1,
+        "detailsShown": false
+      },
+      {
+        "id": 3,
+        "customerId": "3",
+        "orderDate": "2024-09-25",
+        "deliveryDate": "2024-09-26",
+        "deliveryTime": "16:30",
+        "paymentMethod": "Yape",
+        "totalAmount": 0,
+        "status": "pendiente",
+        "dishes": 2,
+        "detailsShown": false
+      },
+      {
+        "id": 4,
+        "customerId": "2",
+        "orderDate": "2024-09-21",
+        "deliveryDate": "2024-09-26",
+        "deliveryTime": "12:30",
+        "paymentMethod": "Yape",
+        "status": "en preparacion",
+        "dishes": 3,
+        "detailsShown": false
+      },
+      {
+        "id": 5,
+        "customerId": "3",
+        "orderDate": "2024-09-22",
+        "deliveryDate": "2024-09-28",
+        "deliveryTime": "21:30",
+        "paymentMethod": "Yape",
+        "status": "completado",
+        "dishes": 2,
+        "detailsShown": false
+      }
   ],
-  "chefs": [
+    "chefs": [
     {
       "id": 1,
       "name": "Juan Perez",
       "rating": 3.3,
       "favorite": true,
-      "imageUrl": "/src/assets/chef1.png"
+      "gender": "masculino"
     },
     {
       "id": 2,
       "name": "Lala Lopez",
-      "rating": 4.5,
       "favorite": true,
-      "imageUrl": "/src/assets/chef2.png"
+      "gender": "femenino",
+      "rating": 4.5
     },
     {
       "id": 3,
       "name": "Estefano Jaque",
       "rating": 2,
+      "favorite": true,
+      "gender": "masculino"
+    },
+    {
+      "id": 4,
+      "name": "Estrella Torres",
       "favorite": false,
-      "imageUrl": "/src/assets/chef3.png"
+      "gender": "femenino",
+      "rating": 4
     }
   ],
-  "dishes": [
+
+    "dishes": [
     {
       "id": 1,
       "chefId": 1,
@@ -94,29 +147,78 @@
         "Fríe los filetes en abundante aceite caliente hasta que estén dorados y crujientes.",
         "Sirve la milanesa acompañada del puré de papas."
       ],
-      "favorite": false
+      "favorite": false,
+      "price": 14.5
     },
     {
       "id": 2,
       "chefId": 2,
-      "nameOfDish": "Tacos al pastor",
+      "nameOfDish": "Spaghetti a la boloñesa",
       "ingredients": [
-        "500g de carne de cerdo",
-        "1/2 piña",
+        "200g de spaghetti",
+        "150g de carne molida",
+        "1 lata de tomate triturado",
         "1 cebolla",
-        "Cilantro al gusto",
-        "Tortillas de maíz",
-        "Salsa al gusto",
-        "Sal y pimienta"
+        "1 diente de ajo",
+        "Aceite de oliva",
+        "Sal y pimienta",
+        "Queso parmesano al gusto"
       ],
       "preparationSteps": [
-        "Marina la carne de cerdo con sal, pimienta y especias al gusto.",
-        "Cocina la carne en una parrilla hasta que esté dorada.",
-        "Corta la piña y la cebolla en trozos.",
-        "Arma los tacos con tortillas, carne, piña, cebolla y cilantro.",
-        "Agrega salsa al gusto y sirve."
+        "Cocina los spaghetti según las instrucciones del paquete.",
+        "En una sartén, calienta el aceite y sofríe la cebolla y el ajo picados.",
+        "Agrega la carne molida y cocina hasta que esté dorada.",
+        "Incorpora el tomate triturado, sal y pimienta, y deja cocinar a fuego lento.",
+        "Sirve los spaghetti con la salsa y espolvorea con queso parmesano."
       ],
-      "favorite": true
+      "favorite": true,
+      "price": 10.5
+    },
+    {
+      "id": 3,
+      "chefId": 1,
+      "nameOfDish": "Pancakes de avena",
+      "ingredients": [
+        "1 taza de avena",
+        "1 manzana",
+        "1 huevo",
+        "1/2 taza de leche",
+        "1 cucharadita de polvo de hornear",
+        "Miel al gusto"
+      ],
+      "preparationSteps": [
+        "Licúa la avena, plátano, huevo y leche hasta obtener una mezcla homogénea.",
+        "Agrega el polvo de hornear y mezcla bien.",
+        "Calienta una sartén y vierte un poco de la mezcla formando pancakes.",
+        "Cocina por ambos lados hasta dorar.",
+        "Sirve con miel y frutas al gusto."
+      ],
+      "favorite": true,
+      "price": 17.5
+    },
+    {
+      "id": 2,
+      "chefId": 2,
+      "nameOfDish": "Spaghetti a la boloñesa",
+      "ingredients": [
+        "200g de spaghetti",
+        "150g de carne molida",
+        "1 lata de tomate triturado",
+        "1 cebolla",
+        "1 diente de ajo",
+        "Aceite de oliva",
+        "Sal y pimienta",
+        "Queso parmesano al gusto"
+      ],
+      "preparationSteps": [
+        "Cocina los spaghetti según las instrucciones del paquete.",
+        "En una sartén, calienta el aceite y sofríe la cebolla y el ajo picados.",
+        "Agrega la carne molida y cocina hasta que esté dorada.",
+        "Incorpora el tomate triturado, sal y pimienta, y deja cocinar a fuego lento.",
+        "Sirve los spaghetti con la salsa y espolvorea con queso parmesano."
+      ],
+      "favorite": true,
+      "price": 10.5
     }
   ]
 }
